@@ -102,7 +102,7 @@ function App() {
             <button
             key= {f}
             onClick={() => setFilter(f)}
-            class= {`px-3 py-1 rounded-lg border transition${
+            class= {`flex items-center justify-center px-3 py-1 rounded-lg border transition${
               filter === f ? ' text-gray-300': ' text-gray-700 hover:bg-indigo-600/30 hover:shadow-md hover:shadow-indigo-500/30'
             }`}
             >
