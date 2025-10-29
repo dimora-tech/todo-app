@@ -49,8 +49,8 @@ function App() {
     const savedTasks = JSON.parse(localStorage.getItem('tasks'))
     if (savedTasks){
       setTasks(savedTasks)
-      setIsLoaded(true)
     }
+    setIsLoaded(true)
   }, [])
 
   useEffect(() => {
